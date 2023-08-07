@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Google Vision app</title>
+    <meta name="description" content="We look cool today">
+  </head>
+  <body>
+    <header>
+      <h1> Vision! - <a href="https://www.linkedin.com/in/douglasdaniel/" target="_blank">Douglas Elias</a> </h1>
+    </header>
+    <main>
+      <form action="/detectionLogo" method="post" enctype="multipart/form-data">
+       <input type="file" id="myimgfile" name="myimgfile"/>
+       <button type="submit">Submit</button>
+      </form>   
+      <form action="/detectionLandmark" method="post" enctype="multipart/form-data">
+        <input type="file" id="myimgfile" name="myimgfile"/>
+        <button type="submit">Submit</button>
+       </form>  
+       <form action="/detectionText" method="post" enctype="multipart/form-data">
+        <input type="file" id="myimgfile" name="myimgfile"/>
+        <button type="submit">Submit</button>
+       </form>       
+    </main>
+  </body>
+</html>
